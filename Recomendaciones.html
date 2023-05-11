@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h4><img src="./LogoSample_ByTailorBrands-removebg-preview.png" alt=""></h4>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="Principal.html">Inicio</a></li>
+                        <li><a href="LugaresDest.html">Lugares Turisticos</a> </li>
+                        <li><a href="Consultas.html">Consultas</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <article>
+        <section>
+            <div class="recomendaciones">
+                <h1>Binevenidos a Recomendaciones</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, suscipit obcaecati. Culpa fuga autem quisquam ab quidem! Consequuntur pariatur illum laboriosam corporis optio placeat quasi fuga necessitatibus delectus. Impedit, optio?</p>
+            </div>
+            <div class="recomendaciones1">
+                <h4>A continuación se le mostrara la lista de los Destinos Turisticos</h4>
+                <p>Presionar "Ver Más" para mostrar la lista.</p>
+                <input type="button" value="Ver Mas" onclick="mosDes()">
+                <table id="tbVec" border="1"></table>
+            </div>
+            <div>
+                <h4>A continuación Ingrese el Numero del indice del Destino Turistico que desea seleccionar.</h4>
+                <input type="text" id="nro" placeholder="Ingrese el indice">
+                <h4>Ahora ingrese un lugar que usted le recomendaria visitar a los Usuarios</h4>
+                <input type="text" id="lugarVisit" placeholder="Recomendación">
+                <input type="button" value="Guardar" onclick="guardarRec()">
+                <h5>Presione el boton mostrar, para ver todas las recomendaciones hechas hasta el momento.</h5>
+                <input type="button" value="Mostrar" onclick="mostrar()">
+                <table id="recom" border="1"></table>
+            </div>
+
+        </section>
+    </article>
+    <script src="index.js"></script>
+
+</body>
+</html>

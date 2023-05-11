@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h4><img src="./LogoSample_ByTailorBrands-removebg-preview.png" alt=""></h4>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="Principal.html">Inicio</a></li>
+                        <li><a href="LugaresDest.html">Lugares Turisticos</a> </li>
+                        <li><a href="Consultas.html">Consultas</a></li>
+                        <li><a href="Recomendaciones.html">Recomendaciones</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <article>
+        <section>
+            <div>
+                <h1>Binevenidos a Modificaciones</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores dolore, minus illum, natus totam explicabo neque quae nisi, autem consectetur blanditiis officiis quia repellat quas. Ut blanditiis laborum voluptate.</p>
+            </div>
+            <div>
+                <h4>A continuación se le mostrara la lista de los Destinos Turisticos</h4>
+                <p>Presionar "Ver Más" para mostrar la lista.</p>
+                <input type="button" value="Ver Mas" onclick="mosDes()">
+                <table id="tbVec" border="1"></table>
+            </div>
+            <div>
+                <h5>A continuacion Escriba el Nombre del Destino Turistico desea Remplazar, tal cual aparece en la tabla</h5>
+                <input type="text" id="name" placeholder="nombre">
+                <h5>Escriba el Nuevo Destino Turistico que desea Agregar</h5>
+                <input type="text" id="newName" placeholder="Nuevo Nombre">
+                <h5>Ahora escriba el Iidoma Principal que se habla en ese lugar</h5>
+                <input type="text" id="newIdio" placeholder="Nuevo Idioma">
+                <h5>Lo siguiente es introducir la Cantidad de Turistas que visitaron en el ultimo año</h5>
+                <input type="text" id="newCan" placeholder="Cantidad de Turistas">
+                <h5>Indique la Temperatura aproxima del Verano</h5>
+                <input type="text" id="verano" placeholder="Temperatura de Verano">
+                <h5>Indique la Temperatura aproxima del Invierno</h5>
+                <input type="text" id="invierno" placeholder="Temperatura de Invierno">
+                <h5>Indique la Temperatura aproxima del Otoño</h5>
+                <input type="text" id="otoño" placeholder="Temperatura de Otoño">
+                <h5>Indique la Temperatura aproxima del Primavera</h5>
+                <input type="text" id="primavera" placeholder="Temperatura de Primavera">
+                <input type="button" value="Cambiar Datos" onclick="cambiar()">
+            </div>
+        </section>
+        <section>
+            <div>
+                <input type="button" value="Mostrar Tabla" onclick="mosRar()">
+                <table id="tb1" border="1"></table>
+            </div>
+        </section>
+    </article>
+    <script src="index.js"></script>
+</body>
+</html>
